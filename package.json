@@ -1,0 +1,19 @@
+{
+  "name": "record",
+  "version": "1.0.0",
+  "description": "This is a book powered by [GitBook](https://github.com/GitbookIO/gitbook).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glassysky/record.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glassysky/record/issues"
+  },
+  "homepage": "https://github.com/glassysky/record#readme"
+}
