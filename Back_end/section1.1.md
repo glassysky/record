@@ -1,4 +1,4 @@
-# nginx部署
+# nginx部署 (Ubuntu)
 
 #### 安装 nginx
 ```
