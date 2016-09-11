@@ -4,7 +4,19 @@
 
 ```
 $ cd myApp
-$ npm install eslint@3.x babel-eslint@6 babel-preset-es2015 --save-dev
+$ npm install eslint@3.x babel-eslint@6 babel-preset-es2015 babel-preset-stage-0 --save-dev
+```
+
+##### .babelrc
+
+```
+{
+  "presets": [
+    "es2015",
+    "stage-0"
+  ]
+}
+
 ```
 
 ##### .eslintrc
