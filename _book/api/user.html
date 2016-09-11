@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 <html lang="" >
     <head>
-        <title>Token · GitBook</title>
+        <title>user · GitBook</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="section1.4.html" />
+    <link rel="next" href="post.html" />
     
     
-    <link rel="prev" href="section1.2.html" />
+    <link rel="prev" href="section1.html" />
     
 
     </head>
@@ -115,9 +115,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3" data-path="./">
+        <li class="chapter " data-level="1.3" data-path="../Back_end/">
             
-                <a href="./">
+                <a href="../Back_end/">
             
                     
                     Back_end
@@ -129,9 +129,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.3.1" data-path="section1.1.html">
+        <li class="chapter " data-level="1.3.1" data-path="../Back_end/section1.1.html">
             
-                <a href="section1.1.html">
+                <a href="../Back_end/section1.1.html">
             
                     
                     nginx部署
@@ -142,9 +142,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3.2" data-path="section1.2.html">
+        <li class="chapter " data-level="1.3.2" data-path="../Back_end/section1.2.html">
             
-                <a href="section1.2.html">
+                <a href="../Back_end/section1.2.html">
             
                     
                     githook
@@ -155,9 +155,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.3.3" data-path="section1.3.html">
+        <li class="chapter " data-level="1.3.3" data-path="../Back_end/section1.3.html">
             
-                <a href="section1.3.html">
+                <a href="../Back_end/section1.3.html">
             
                     
                     Token
@@ -168,9 +168,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3.4" data-path="section1.4.html">
+        <li class="chapter " data-level="1.3.4" data-path="../Back_end/section1.4.html">
             
-                <a href="section1.4.html">
+                <a href="../Back_end/section1.4.html">
             
                     
                     mysql
@@ -181,9 +181,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3.5" data-path="section1.5.html">
+        <li class="chapter " data-level="1.3.5" data-path="../Back_end/section1.5.html">
             
-                <a href="section1.5.html">
+                <a href="../Back_end/section1.5.html">
             
                     
                     babel
@@ -212,9 +212,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5" data-path="../api/">
+        <li class="chapter " data-level="1.5" data-path="./">
             
-                <a href="../api/">
+                <a href="./">
             
                     
                     API
@@ -226,9 +226,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.5.1" data-path="../api/section0.html">
+        <li class="chapter " data-level="1.5.1" data-path="section0.html">
             
-                <a href="../api/section0.html">
+                <a href="section0.html">
             
                     
                     construction
@@ -239,9 +239,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.2" data-path="../api/section1.html">
+        <li class="chapter " data-level="1.5.2" data-path="section1.html">
             
-                <a href="../api/section1.html">
+                <a href="section1.html">
             
                     
                     common
@@ -252,9 +252,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.3" data-path="../api/user.html">
+        <li class="chapter active" data-level="1.5.3" data-path="user.html">
             
-                <a href="../api/user.html">
+                <a href="user.html">
             
                     
                     user
@@ -265,9 +265,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.4" data-path="../api/post.html">
+        <li class="chapter " data-level="1.5.4" data-path="post.html">
             
-                <a href="../api/post.html">
+                <a href="post.html">
             
                     
                     post
@@ -313,7 +313,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Token</a>
+        <a href=".." >user</a>
     </h1>
 </div>
 
@@ -328,11 +328,100 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="token">Token</h1>
-<p><a href="https://www.sitepoint.com/using-json-web-tokens-node-js/" target="_blank">link</a></p>
-<h3 id="mechanism">Mechanism</h3>
-<p><img src="http://odbkzpte0.bkt.clouddn.com/TOKEN.png" alt=""></p>
-
+                                <h1 id="user">user</h1>
+<h3 id="usersign-up">user/sign-up</h3>
+<p>POST</p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Type</th>
+<th style="text-align:center">Required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>name</td>
+<td>string</td>
+<td style="text-align:center">Y</td>
+</tr>
+<tr>
+<td>user_name</td>
+<td>string</td>
+<td style="text-align:center">Y</td>
+</tr>
+<tr>
+<td>password</td>
+<td>string</td>
+<td style="text-align:center">Y</td>
+</tr>
+<tr>
+<td>stu_id</td>
+<td>string</td>
+<td style="text-align:center">Y</td>
+</tr>
+<tr>
+<td>qq</td>
+<td>string</td>
+<td style="text-align:center">Y</td>
+</tr>
+<tr>
+<td>email</td>
+<td>string</td>
+<td style="text-align:center">Y</td>
+</tr>
+<tr>
+<td>tel</td>
+<td>string</td>
+<td style="text-align:center">Y</td>
+</tr>
+</tbody>
+</table>
+<pre><code>{
+  code: 1,
+  result: &quot;success&quot;
+}
+</code></pre><h3 id="userdelete">user/delete</h3>
+<h3 id="userupdate">user/update</h3>
+<h3 id="userget">user/get</h3>
+<p>GET</p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Type</th>
+<th style="text-align:center">Required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td>number</td>
+<td style="text-align:center">Y(or stu_id)</td>
+</tr>
+<tr>
+<td>stu_id</td>
+<td>string</td>
+<td style="text-align:center">Y(or id)</td>
+</tr>
+</tbody>
+</table>
+<pre><code>{
+  &quot;code&quot;: 1,
+  &quot;result&quot;: [
+    {
+      &quot;id&quot;: 14,
+      &quot;name&quot;: &quot;test&quot;,
+      &quot;user_name&quot;: &quot;123&quot;,
+      &quot;password&quot;: &quot;4567666&quot;,
+      &quot;stu_id&quot;: &quot;B14011030&quot;,
+      &quot;tel&quot;: &quot;18252031827&quot;,
+      &quot;email&quot;: &quot;873661157@qq.com&quot;,
+      &quot;qq&quot;: &quot;873661157&quot;
+    }
+  ]
+}
+</code></pre>
                                 
                                 </section>
                             
@@ -359,12 +448,12 @@
 
             
                 
-                <a href="section1.2.html" class="navigation navigation-prev " aria-label="Previous page: githook">
+                <a href="section1.html" class="navigation navigation-prev " aria-label="Previous page: common">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="section1.4.html" class="navigation navigation-next " aria-label="Next page: mysql">
+                <a href="post.html" class="navigation navigation-next " aria-label="Next page: post">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -375,7 +464,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Token","level":"1.3.3","depth":2,"next":{"title":"mysql","level":"1.3.4","depth":2,"path":"Back_end/section1.4.md","ref":"Back_end/section1.4.md","articles":[]},"previous":{"title":"githook","level":"1.3.2","depth":2,"path":"Back_end/section1.2.md","ref":"Back_end/section1.2.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Back_end/section1.3.md","mtime":"2016-09-11T03:01:12.000Z","type":"markdown"},"gitbook":{"version":"3.1.1","time":"2016-09-11T06:17:52.341Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"user","level":"1.5.3","depth":2,"next":{"title":"post","level":"1.5.4","depth":2,"path":"api/post.md","ref":"api/post.md","articles":[]},"previous":{"title":"common","level":"1.5.2","depth":2,"path":"api/section1.md","ref":"api/section1.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"api/user.md","mtime":"2016-09-10T08:52:25.000Z","type":"markdown"},"gitbook":{"version":"3.1.1","time":"2016-09-11T06:17:52.341Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

@@ -12,4 +12,6 @@
 * [API](api/README.md)
     * [construction](api/section0.md)
     * [common](api/section1.md)
+    * [user](api/user.md)
+    * [post](api/post.md)
 
