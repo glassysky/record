@@ -9,6 +9,16 @@ USER
 #### [/user/get](../api/user.md#userget)
 
 ---
-POSTS
+POST
 
 #### [/post/add](../api/post.md)
+#### [/post/delete](../api/post.md)
+#### [/post/get](../api/post.md)
+
+---
+ENROLL
+
+#### [/enroll/add](../api/enroll.md)
+#### [/enroll/delete](../api/enroll.md)
+#### [/enroll/update](../api/enroll.md)
+#### [/enroll/get](../api/enroll.md)

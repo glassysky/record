@@ -14,4 +14,5 @@
     * [common](api/section1.md)
     * [user](api/user.md)
     * [post](api/post.md)
+    * [enroll](api/enroll.md)
 
